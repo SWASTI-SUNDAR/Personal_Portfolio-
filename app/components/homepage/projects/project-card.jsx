@@ -40,7 +40,7 @@ function ProjectCard({ project }) {
             />
           </div>
           <div className="mt-3 text-md lg:text-lg">
-            <span>{project.description}</span>
+            <p dangerouslySetInnerHTML={{ __html: project.description }} />
           </div>
           <div className="flex justify-between pt-3 ">
             <div className="flex justify-center  items-center ">

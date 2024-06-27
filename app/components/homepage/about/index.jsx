@@ -19,14 +19,14 @@ function AboutSection() {
           </p>
           <div className="text-gray-200 text-sm lg:text-lg flex flex-col gap-5 ">
             <span>
-              👋 Hi there! I’m Swasti Sundar Pradhan, a passionate web developer
-              with a flair for crafting stunning and efficient websites. Armed
-              with a 🎓 BTech from{" "}
+              👋 Hi there! I&apos;m Swasti Sundar Pradhan, a passionate web
+              developer with a flair for crafting stunning and efficient
+              websites. Armed with a 🎓 BTech from{" "}
               <span className="text-pink-500"> NIT Rourkela </span> and
               expertise in the
               <span className="text-pink-500"> MERN stack </span> and WordPress,
-              I've delivered top-notch projects like innovative SaaS platforms
-              Datapixl and PrevHealth.
+              I&apos;ve delivered top-notch projects like innovative SaaS
+              platforms Datapixl and PrevHealth.
             </span>
             <span>
               🚀<span className="text-pink-500"> A hackathon enthusiast</span>,
@@ -37,7 +37,7 @@ function AboutSection() {
             <span>
               💡<span className="text-pink-500">Let's collaborate</span> and
               turn your vision into a digital masterpiece. Check out my work and
-              let's make something amazing together!
+              let&apos;s make something amazing together!
             </span>
           </div>
         </div>

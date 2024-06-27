@@ -13,7 +13,7 @@ export const projectsData = [
     id: 1,
     name: "Vriddhi - Sports Fest, NIT Rourkela",
     description:
-      "Developed the official website for VRIDDHI, NIT Rourkela’s sports fest, which serves as a comprehensive platform for event information, participant registration, and real-time updates.",
+      "Developed the official website for VRIDDHI, NIT Rourkela&apos;s sports fest, which serves as a comprehensive platform for event information, participant registration, and real-time updates.",
     tools: [javascript, tailwind, nextJS, css, mongoDB],
     role: "Full Stack Developer",
     code: "",
