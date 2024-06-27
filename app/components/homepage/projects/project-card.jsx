@@ -36,7 +36,7 @@ function ProjectCard({ project }) {
             <img
               src={project.image}
               className="object-cover rounded-lg h-48 w-full lg:h-72 lg:w-full"
-              alt=""
+              alt={project.name}
             />
           </div>
           <div className="mt-3 text-md lg:text-lg">
@@ -49,7 +49,7 @@ function ProjectCard({ project }) {
                   key={index}
                   src={tool.src}
                   className="h-6 group rounded-full -ml-2 bg-white overflow-hidden w-6 lg:h-10 lg:w-10"
-                  alt=""
+                  alt={"tool" + index}
                 />
               ))}
             </div>

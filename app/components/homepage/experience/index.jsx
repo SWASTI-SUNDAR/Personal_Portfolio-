@@ -68,6 +68,7 @@ function Experience() {
                             width={20}
                             height={20}
                             size={36}
+                            alt={experience.title}
                           />
                         ) : (
                           <BsPersonWorkspace className="text-4xl"></BsPersonWorkspace>
