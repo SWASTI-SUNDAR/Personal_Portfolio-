@@ -19,12 +19,11 @@ function Navbar() {
   return (
     <>
       <nav className="bg-transparent  flex w-full justify-between">
-        <div className="flex w-screen items-center justify-between pt- px-4 md:px-8">
+        <div className="flex w-screen items-center justify-between px-4 md:px-8">
           <div className="flex flex-shrink-0 items-center">
             <Link href="/" className="text-[#16f2b3]">
               <svg
-                width="200"
-                height="100"
+                className="logo-svg"
                 viewBox="0 0 200 100"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -114,9 +113,13 @@ function Navbar() {
         </div>
       </nav>
       <div>
-        {
-          isOpen &&
-          <div onClick={()=>{setIsOpen(!open)}} className="bg-transparent">
+        {isOpen && (
+          <div
+            onClick={() => {
+              setIsOpen(!open);
+            }}
+            className="bg-transparent"
+          >
             <ul className="flex flex-col justify-center items-center mt-4 space-y-2 md:mt-0 md:flex-row md:space-y-0 md:space-x-6">
               {menuItems.map((item) => (
                 <li key={item.href}>
@@ -132,7 +135,7 @@ function Navbar() {
               ))}
             </ul>
           </div>
-        }
+        )}
       </div>
     </>
   );

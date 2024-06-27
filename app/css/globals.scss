@@ -7,6 +7,24 @@
   --foreground-rgb: rgb(211, 216, 232);
   scroll-behavior: smooth !important;
 }
+.logo-svg {
+  width: 200px; /* Default width for larger screens */
+  height: 100px; /* Default height for larger screens */
+}
+
+@media (max-width: 768px) {
+  .logo-svg {
+    width: 150px; /* Adjust width for medium-sized screens */
+    height: 75px; /* Adjust height for medium-sized screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-svg {
+    width: 120px; /* Adjust width for smaller screens like mobile */
+    height: 60px; /* Adjust height for smaller screens like mobile */
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
