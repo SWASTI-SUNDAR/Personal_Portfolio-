@@ -25,8 +25,8 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
-            This is <span className=" text-pink-500">{personalData.name}</span>
-            {` , I'm a Professional `}
+            This is <span className=" text-pink-500">{personalData.name}</span>,
+            I&apos;m a Professional
             <span className=" text-[#16f2b3]">{personalData.designation}</span>.
           </h1>
 
@@ -112,31 +112,29 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">{`'`}</span>
+                <span className="text-gray-400">&apos;</span>
                 <span className="text-amber-300">Swasti</span>
-                <span className="text-gray-400">{`',`}</span>
+                <span className="text-gray-400">&apos;</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
-                <span className="text-gray-400">{`['`}</span>
+                <span className="text-gray-400">{`[`}&apos;</span>
                 <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, &apos;</span>
                 <span className="text-amber-300">NextJS</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, &apos;</span>
                 <span className="text-amber-300">Redux</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, &apos;</span>
                 <span className="text-amber-300">Express</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, &apos;</span>
                 <span className="text-amber-300">MySql</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, &apos;</span>
                 <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, &apos;</span>
                 <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, &apos;</span>
                 <span className="text-amber-300">NodeJS</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">&apos;{"],"}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">
@@ -203,6 +201,6 @@ function HeroSection() {
       </div>
     </section>
   );
-};
+}
 
 export default HeroSection;
