@@ -4,6 +4,7 @@
 
 :root {
   --foreground-rgb: rgb(211, 216, 232);
+  scroll-behavior: smooth !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +32,9 @@ body {
 
 #sticky-card-4 {
   --index: 4;
+}
+#sticky-card-5 {
+  --index: 5;
 }
 
 .sticky-card {

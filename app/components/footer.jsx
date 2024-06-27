@@ -1,7 +1,12 @@
 // @flow strict
+import { personalData } from '@/utils/data/personal-data';
 import Link from 'next/link';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { CgGitFork } from "react-icons/cg";
+import { FaTwitterSquare } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa6';
 import { IoStar } from "react-icons/io5";
+import { SiLeetcode } from 'react-icons/si';
 
 function Footer() {
   return (
@@ -12,29 +17,55 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Developer Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/abu-said-bd/" className="text-[#16f2b3]">Abu Said</Link>
+            © Developer Portfolio by{" "}
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/abu-said-bd/"
+              className="text-[#16f2b3]"
+            >
+              Swasti
+            </Link>
           </p>
           <div className="flex items-center gap-5">
             <Link
+              href={personalData.github}
               target="_blank"
-              href="https://github.com/said7388/developer-portfolio"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <IoStar />
-              <span>Star</span>
+              <BsGithub size={20} />
             </Link>
             <Link
+              href={personalData.linkedIn}
               target="_blank"
-              href="https://github.com/said7388/developer-portfolio/fork"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <CgGitFork />
-              <span>Fork</span>
+              <BsLinkedin size={20} />
+            </Link>
+            <Link
+              href={personalData.instagram}
+              target="_blank"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <FaInstagram size={20} />
+            </Link>
+            <Link
+              href={personalData.leetcode}
+              target="_blank"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <SiLeetcode size={20} />
+            </Link>
+            <Link
+              href={personalData.twitter}
+              target="_blank"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <FaTwitterSquare size={20} />
             </Link>
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 
