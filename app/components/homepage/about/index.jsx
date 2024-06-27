@@ -35,9 +35,9 @@ function AboutSection() {
               and adaptation to new trends.
             </span>
             <span>
-              💡<span className="text-pink-500">Let's collaborate</span> and
-              turn your vision into a digital masterpiece. Check out my work and
-              let&apos;s make something amazing together!
+              💡<span className="text-pink-500">Let&apos;s collaborate</span>{" "}
+              and turn your vision into a digital masterpiece. Check out my work
+              and let&apos;s make something amazing together!
             </span>
           </div>
         </div>
