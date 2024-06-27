@@ -23,7 +23,7 @@ function ProjectCard({ project }) {
           </p>
         </div>
         <div className="cursor-pointer">
-          <Link href={project.link || ""} target="_blank">
+          <Link href={project.demo} className="text-pink-400" target="_blank">
             <FaExternalLinkAlt />
           </Link>
         </div>
@@ -35,12 +35,34 @@ function ProjectCard({ project }) {
           <div className="">
             <img
               src={project.image}
-              className="object-contain rounded-lg "
+              className="object-cover rounded-lg h-48 w-full lg:h-72 lg:w-full"
               alt=""
             />
           </div>
-          <div>
+          <div className="mt-3 text-md lg:text-lg">
             <span>{project.description}</span>
+          </div>
+          <div className="flex justify-between pt-3 ">
+            <div className="flex justify-center  items-center ">
+              {project.tools.map((tool, index) => (
+                <img
+                  key={index}
+                  src={tool.src}
+                  className="h-6 group rounded-full -ml-2 bg-white overflow-hidden w-6 lg:h-10 lg:w-10"
+                  alt=""
+                />
+              ))}
+            </div>
+            <div>
+              <Link
+                className="flex justify-center items-center gap-1 text-pink-400 text-xl font-extrabold "
+                href={project.demo}
+                target="_blank"
+              >
+                Live Demo
+                <FaExternalLinkAlt />
+              </Link>
+            </div>
           </div>
         </code>
       </div>

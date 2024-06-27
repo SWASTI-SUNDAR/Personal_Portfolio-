@@ -26,7 +26,7 @@ function Footer() {
               Swasti
             </Link>
           </p>
-          <div className="flex items-center gap-5">
+          <div className="lg:flex hidden items-center gap-5">
             <Link
               href={personalData.github}
               target="_blank"
