@@ -11,7 +11,7 @@ export const personalData = {
   facebook: "https://www.facebook.com/abusaid.riyaz/",
   linkedIn: "https://www.linkedin.com/in/swasti-sundar-pradhan/",
   twitter: "https://x.com/swastisundarpr4",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
+  
   leetcode: "https://leetcode.com/u/swastipradhan044/",
   instagram: "https://www.instagram.com/swasti_sundar_/",
   devUsername: "said7388",
