@@ -7,6 +7,7 @@ import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
 import ScrollToTop from "./components/helper/scroll-to-top";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -18,6 +19,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="oH2AV3IAMv9tUnwnSKZSbqdC-t65sqE4Dg00Rl7UgkQ"
+        />
+      </head>
       <body className={inter.className}>
         <ToastContainer />
         <Navbar />

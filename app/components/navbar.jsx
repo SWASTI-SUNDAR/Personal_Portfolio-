@@ -12,7 +12,7 @@ function Navbar() {
     { href: "/#experience", label: "EXPERIENCE" },
     { href: "/#skills", label: "SKILLS" },
     { href: "/#education", label: "EDUCATION" },
-    { href: "/#testimonials", label: "TESTIMONIALS" },
+    // { href: "/#testimonials", label: "TESTIMONIALS" },
     { href: "/#projects", label: "PROJECTS" },
   ];
 
